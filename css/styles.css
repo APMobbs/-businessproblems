@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/Steel.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    text-decoration-line: underline;
+    font-size: 25px;
+    margin: 0;
+}
+
+.header{
+    display: block;
+    width: 120%;
+    max-width: 100%;
+    background-image: url("../images/Building.jpg");
+    text-align: center;
+    min-height: 150px;
+    color: darkslategrey;
+    background-size: cover; 
+    background-position-y: 450px;
+    background-position-x: -24px;
+}
+
+.content{
+    display: block;
+    width: 47%;
+    background-color: darkslategrey;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightskyblue;
+    min-height: 300px;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.reference{
+    display: block;
+    width: 97%;
+    background-color: darkslategrey;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: lightskyblue;
+    min-height: 100%;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
