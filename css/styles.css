@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/Steel.jpg");
-    background-size: 100%;
+    background-size: 150%;
     background-repeat: no-repeat;
 }
 
@@ -15,6 +15,7 @@ h2 {
     text-decoration-line: underline;
     font-size: 25px;
     margin: 0;
+    text-align: center;
 }
 
 .header{
@@ -32,13 +33,12 @@ h2 {
 
 .content{
     display: block;
-    width: 47%;
+    width: 97%;
     background-color: darkslategrey;
     font-family: 'PT Sans Narrow', sans-serif;
     color: lightskyblue;
-    min-height: 420px;
+    max-height: 100%;
     font-size: 18px;
-    float: left;
     padding: 10px;
     margin: 10px;
     /* overflow: scroll; */
@@ -56,3 +56,4 @@ h2 {
     padding: 10px;
     margin: 10px;
 }
+
